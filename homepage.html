@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <title>Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <form id="from" method="post" action="issues.php">
+        <h1>Kenya Power and Lightening Company</h1>
+        <div class="container">
+        <div class="links">
+        <nav>
+            <a href="homepage.html">Issues</a><br>
+            <a href="resources.php">Resources</a><br>
+            <a href="about.html">About</a>
+        </nav>
+        </div>
+        <div class="main">
+         <p1>Welcome, this is the homepage.</p1><br>
+        <p2>Please fill in your issue down below;</p2><br>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" class="input-box" name="username"><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" class="input-box" name="email"><br>
+        <label for="issue">Choose your issue;</label><br>
+        <select class="issues" id="issues" name="issues">
+            <option >Transformer</option>
+            <option >Oil</option>
+            <option >Posts</option>
+            <option >Wires</option>
+            <option >Token</option>
+        </select><br>
+        <label for="location">Choose your location;</label><br>
+        <select class="location" id="location" name="location">
+            <option >Kericho</option>
+            <option >Nakuru</option>
+            <option >Eldoret</option>
+            <option >Nairobi</option>
+            <option >Kisumu</option>
+            <option >Bomet</option>
+            <option >Nandi</option>
+            <option >Wajir</option>
+        </select><br>
+        <label for="description">Description;</label><br>
+        <textarea class="description" name="description" placeholder="Enter your description...."></textarea><br>
+        <button type="submit" name="submit" id="submit" class="submit">Submit</button>
+        </div>
+        </div>
+    </form>
+</body>
+</head>
+</html>
