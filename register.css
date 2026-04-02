@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    outline: 0;
+    padding: 0;
+    font-family: Poppins,sans-serif;
+    margin: 0;
+}
+body{
+    background-color:rgb(63, 63, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-top: 50px;
+    font-size: 28px;
+    color: white;
+}
+.wrapper{
+    border-style: solid;
+    border-radius: 10px;
+    height: 470px;
+    width: 430px;
+    margin-top: 25px;
+    text-align: center;
+    background-color: beige;
+    margin-left: 60px;
+}
+h2{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.lbl{
+    margin-top: 40px;
+    margin-right: 340px;
+}
+.input-box{
+    height: 30px;
+    width: 385px;
+    margin: 3px;
+    border-radius: 5px;
+}
+.reg{
+    height: 30px;
+    width: 385px;
+    border-radius: 5px;
+    background-color: rgb(85, 85, 221);
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.terms{
+    margin-top: 14px;
+    margin-left: -8px;
+
+}
+.lbs{
+    margin-left: 2px;
+}
+p{
+    color: red;
+}
+p2{
+    margin-right: 30px;
+}
+.age{
+    margin-right: 350px;
+}
+.pass{
+    margin-right: 310px;
+}
